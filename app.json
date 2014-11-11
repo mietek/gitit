@@ -1,0 +1,44 @@
+{
+  "name": "gitit",
+  "description": "Haskell/Happstack web wiki",
+  "website": "http://gitit.net/",
+  "repository": "https://github.com/jgm/gitit",
+  "env": {
+    "BUILDPACK_URL": "https://github.com/mietek/haskell-on-heroku",
+    "BUILDPACK_SSH_PRIVATE_KEY": {
+      "required": false
+    },
+    "GITIT_GIT_USER_EMAIL": {
+      "required": false,
+      "value": "gitit@example.com"
+    },
+    "GITIT_GIT_USER_NAME": {
+      "required": false,
+      "value": "gitit"
+    },
+    "GITIT_GIT_URL": {
+      "required": false,
+      "value": "git@github.com:USERNAME/REPONAME"
+    },
+    "GITIT_WIKI_TITLE": {
+      "required": false,
+      "value": "gitit"
+    },
+    "GITIT_AUTHENTICATION_METHOD": {
+      "required": false,
+      "value": "github"
+    },
+    "GITIT_OAUTH_CLIENT_ID": {
+      "required": false,
+      "value": "01234567890123456789"
+    },
+    "GITIT_OAUTH_CLIENT_SECRET": {
+      "required": false,
+      "value": "0123456789012345678901234567890123456789"
+    },
+    "GITIT_OAUTH_CLIENT_CALLBACK": {
+      "required": false,
+      "value": "https://APPNAME.herokuapp.com/_githubCallback"
+    }
+  }
+}
