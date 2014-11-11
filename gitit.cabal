@@ -97,7 +97,7 @@ data-files:          data/static/css/screen.css, data/static/css/print.css,
                      plugins/ShowUser.hs,
                      plugins/Signature.hs,
                      plugins/Subst.hs,
-                     CHANGES, README.markdown, YUI-LICENSE, BLUETRIP-LICENSE, TANGOICONS
+                     CHANGES, README.md, README.original.md, YUI-LICENSE, BLUETRIP-LICENSE, TANGOICONS
 
 Source-repository head
   type:          git
