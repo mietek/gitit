@@ -147,7 +147,7 @@ createDefaultPages conf = do
     markuppath <- getDataFileName $ "data" </> "markup" <.> show pt
     helpcontentsMarkup <- liftM converter $ readFileUTF8  markuppath
     let helpcontents = helpcontentsInitial ++ "\n\n" ++ helpcontentsMarkup
-    usersguidepath <- getDataFileName "README.markdown"
+    usersguidepath <- getDataFileName "README.original.md"
     usersguidecontents <- liftM converter $ readFileUTF8 usersguidepath
     -- include header in case user changes default format:
     let header = "---\nformat: " ++
