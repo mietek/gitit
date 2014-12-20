@@ -20,7 +20,7 @@ $ gitit -p 8080
 
 ### Deploying with [Haskell on Heroku](https://haskellonheroku.com/)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mietek/gitit)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mietek/instant-gitit)
 
 
 About
