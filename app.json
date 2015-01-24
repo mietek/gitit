@@ -1,0 +1,47 @@
+{
+  "name": "Gitit",
+  "description": "Wiki with git file storage",
+  "logo": "https://halcyon.sh/logo.svg",
+  "repository": "https://github.com/mietek/gitit",
+  "env": {
+    "BUILDPACK_URL": {
+      "description": "Heroku buildpack for deploying Haskell apps",
+      "value": "https://github.com/mietek/haskell-on-heroku"
+    },
+    "BUILDPACK_SSH_PRIVATE_KEY": {
+      "required": false
+    },
+    "GITIT_GIT_USER_EMAIL": {
+      "required": false,
+      "value": "gitit@example.com"
+    },
+    "GITIT_GIT_USER_NAME": {
+      "required": false,
+      "value": "gitit"
+    },
+    "GITIT_GIT_URL": {
+      "required": false,
+      "value": "git@github.com:CHANGE_ME/CHANGE_ME"
+    },
+    "GITIT_WIKI_TITLE": {
+      "required": false,
+      "value": "gitit"
+    },
+    "GITIT_AUTHENTICATION_METHOD": {
+      "required": false,
+      "value": "github"
+    },
+    "GITIT_OAUTH_CLIENT_ID": {
+      "required": false,
+      "value": "CHANGE_ME"
+    },
+    "GITIT_OAUTH_CLIENT_SECRET": {
+      "required": false,
+      "value": "CHANGE_ME"
+    },
+    "GITIT_OAUTH_CALLBACK": {
+      "required": false,
+      "value": "https://CHANGE_ME.herokuapp.com/_githubCallback"
+    }
+  }
+}
