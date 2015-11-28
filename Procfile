@@ -1,1 +1,1 @@
-web: bin/gitit -f .gitit.conf
+web: bin/gitit -f gitit.conf
